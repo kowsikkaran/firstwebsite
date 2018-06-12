@@ -1,0 +1,126 @@
+
+*{	margin:0;
+	padding:0;
+}
+section{
+	width:100%;
+	height:100px;}
+#home{
+	background-color:#e0e0d1;
+	padding-bottom:900px;}
+.align{
+	font-family: 'Poor Story', cursive;
+	text-align:center;
+	color:black;
+	margin-top:20px;}
+.align1{
+	color:black;
+	text-align:center;
+	margin-top:80px;
+	font-size:80px;
+	font-family: 'Poor Story', cursive;}
+#services
+{	background-color:#f2ecbc;
+	padding-bottom:600px;
+	text-align:center;}
+#aboutus
+{	background-color:black;
+	padding-bottom:600px;}
+.abtus{
+    position:absolute;
+    background-color: lightgrey;
+    width: 70%;
+	height:500px;
+    border: 5px solid brown;
+    padding: 25px;
+    margin-top:60px;
+    margin-left:150px;
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	text-align:center;
+}
+#contact 
+	{padding-bottom:515px;}
+.cont{
+	margin-top:10px;
+	float:right;}
+ul{
+    list-style-type:none;
+	overflow:hidden;
+	background:white;
+    margin-top:-160px;
+	width:100%;
+	color:black}
+li {float:right;}
+li a {
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 65px 65px;
+    text-decoration: none;
+	font-size:200%;}      
+li a:hover {
+    background-color:#e6ffff;
+	box-shadow: 10px 10px 5px grey}
+.footer {
+   left: 0;
+   bottom: 0;
+   width:auto;
+   background-color:#000000;
+   color: white;
+   text-align:center;
+   padding:20px;
+   font-size:25px;}
+ .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;}
+.fa:hover {
+    opacity: 0.7;}
+.fa-facebook {
+  background: #3B5998;
+  color: white;}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;}
+.fa-google {
+  background: #dd4b39;
+  color: white;}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;}
+.grid{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 8px;
+  background-color: black;
+  padding: 20px;}
+.grid >div{
+  background-color: #ccc;
+  border: 1px solid black;
+  text-align: center;
+  font-size: 30px;
+  height:500px;
+  overflow:hidden;}
+@media screen and (max-width: 1000px) {
+    .grid >div {
+		grid-column-start:1;
+	    grid-column-end:3;
+	}
+	.abtus{
+		margin-top:200px;
+	}
+}
+
+
+
+
+
+
+
+
+
+  
